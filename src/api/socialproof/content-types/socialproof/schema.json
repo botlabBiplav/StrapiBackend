@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socialproofs",
+  "info": {
+    "singularName": "socialproof",
+    "pluralName": "socialproofs",
+    "displayName": "Socialproof"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "eventImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_shows",
+  "info": {
+    "singularName": "featured-showdata",
+    "pluralName": "featured-shows",
+    "displayName": "FeaturedShows",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Imagedata": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

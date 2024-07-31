@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_offereds",
+  "info": {
+    "singularName": "services-offered",
+    "pluralName": "services-offereds",
+    "displayName": "SERVICES OFFERED"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Imagedata": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

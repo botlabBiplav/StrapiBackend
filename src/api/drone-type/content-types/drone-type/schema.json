@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drone_types",
+  "info": {
+    "singularName": "drone-type",
+    "pluralName": "drone-types",
+    "displayName": "DroneType"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "DroneImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "ButtonTitle": {
+      "type": "string"
+    },
+    "ShowImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
